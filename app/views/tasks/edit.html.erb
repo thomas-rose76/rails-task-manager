@@ -1,0 +1,7 @@
+<h2>Edit a task</h2>
+
+<%= simple_form_for(@task) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <button class="btn btn-success" type="submit">Edit</button>
+<% end %>

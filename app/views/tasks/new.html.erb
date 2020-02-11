@@ -1,0 +1,9 @@
+<h2 class="text-center">Add a task</h2>
+
+<div class="add justify-center">
+  <%= simple_form_for(@task) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :details %>
+    <button class="btn btn-success" type="submit">Create</button>
+<% end %>
+</div>
